@@ -1,0 +1,36 @@
+.footer{
+    background: #232127;
+}
+.footer__container{
+    padding: 7rem 0 7rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__nav{
+    display: flex;
+    gap: 10.6rem;
+}
+.footer__list-title{
+    color: #fff;
+    margin-bottom: 2.2rem;
+}
+.footer__item:not(:last-child){
+    margin-bottom: 1rem;
+}
+.footer__link{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #BFBFBF;
+    transition: 0.3s ease;
+    &:hover{
+        color: $primary-color-aqua;
+    }
+}
+.social{
+    display: flex;
+    gap: 2.4rem;
+}
+.social__media:hover path{
+    fill: $primary-color-aqua;
+    cursor: pointer;
+}

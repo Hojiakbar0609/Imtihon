@@ -1,0 +1,28 @@
+.button{
+    background: $primary-color-aqua;
+    border-radius: 28px;
+    padding: 0.9rem 2.4rem;
+    color: $color-white;
+    font-weight: 700;
+    line-height: 1.4;
+    transition: 0.3s;
+
+    &:hover{
+        background: #9AE3E3;
+    }
+
+    &.form__button{
+        border-radius: 10px;
+        padding: 1.8rem 4rem;
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    &.button__short{
+        padding: 1rem 3.1rem;
+        border-radius: 5px;
+    }
+    &.copied__btn{
+        background: #3A3054;
+        border-radius: 5px;
+    }
+}

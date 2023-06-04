@@ -1,0 +1,182 @@
+.main{
+    flex-grow: 1;
+}
+.hero{
+    padding: 12rem 0 0 0;
+}
+.hero__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 15.8rem 0;
+}
+.hero__info{
+    width: 600px;
+}
+.hero__title{
+    margin-bottom: 5px;
+}
+.hero__description{
+    font-size: 2.2rem;
+    line-height: 1.6;
+    letter-spacing: 0.15px;
+    color: $primary-color-grey;
+    margin-bottom: 3.8rem;
+}
+.form__container{
+    position: relative;
+}
+.forms{
+    background: $primary-color-dark-blue;
+    padding: 5.2rem 6.5rem;
+    margin-top: 6.8rem;
+    border-radius: 10px;
+    background-image: url('/images/png/form-bg-2.png'),
+                      url('/images/png/form-bg.png');
+    background-repeat: no-repeat;
+    background-position: right -50% top 83%, left -10%  bottom 110%;
+    position: absolute;
+    bottom: -90px;
+}
+
+.form__input{
+    width: 769px;
+    padding: 1.4rem 0 1.4rem 3.2rem;
+    font-weight: $main-font-weight;
+    font-size: 2rem;
+    line-height: 1.8;
+    color: $primary-color-dark-blue;
+    border-radius: 10px;
+    border: none;
+    margin-right: 2.4rem;
+    &::placeholder{
+        opacity: 0.5;
+    }
+}
+.form__blocks{
+    position: relative;
+}
+.form__description{
+    width: 100%;
+    padding: 1.6rem 2.4rem 1.6rem 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -200px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.form__description-2{
+    width: 100%;
+    padding: 1.6rem 2.4rem 1.6rem 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -300px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.form__description-3{
+    width: 100%;
+    padding: 1.6rem 2.4rem 1.6rem 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -400px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.short__link{
+    color: $primary-color-aqua;
+}
+.statistics{
+    background: #F2F2F2;
+    padding: 55rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.statistics__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.statistics__title{
+    margin-bottom: 1.8rem;
+}
+.statistics__decsription{
+    max-width: 540px;
+    color: $primary-color-grey;
+}
+.statistic__cards{
+    display: flex;
+    gap: 30px;
+    text-align: left;
+    // align-items: center;
+    padding: 5.6rem 0 16.4rem 0;
+    position: relative;
+}
+.statistic__card{
+    max-width: 350px;
+    height: 267px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 7.7rem 3.2rem 4.1rem 3.2rem;
+    position: relative;
+}
+.statistic__card:not(:last-child):after{
+    content: '';
+    width: 30px;
+    height: 8px;
+    background: $primary-color-aqua;
+    position: absolute;
+    right: -30px;
+    top: 60%;
+}
+.statistic__image{
+    background: $primary-color-dark-blue;
+    padding: 2.4rem;
+    border-radius: 50%;
+    margin-top: -12rem;
+    margin-bottom: 3.3rem;
+}
+.s__card-title{
+    margin-bottom: 1.2rem;
+}
+.s__card-description{
+    max-width: 266px;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    line-height: 1.73;
+    color: $primary-color-grey;
+}
+.card-2{
+    margin-top: 4.4rem;
+}
+.card-3{
+    margin-top: 8.8rem;
+}
+.links{
+    padding: 5.7rem 0 5.7rem 0;
+    background: url('/images/png/links-bg-top-left.png'),
+                url('/images/png/links-bg-top-right.png'),
+                url('/images/png/links-bg-bottom-center.png');
+    background-repeat: no-repeat;
+    background-position: top 130% left -230%, top 50% right -250%, bottom 130% left -150%;
+}
+.links__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links__title{
+    color: #FFFFFF;
+    margin-bottom: 3.2rem;
+}

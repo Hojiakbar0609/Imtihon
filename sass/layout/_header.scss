@@ -1,0 +1,26 @@
+.header{
+    padding: 5.5rem 2rem 7.8rem;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.sitenav__list{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+.sitenav__link, .login{
+    font-weight: 700;
+    color: $primary-color-grey;
+    transition: 0.3s ease;
+    &:hover{
+        color: $primary-color-dark-blue;
+    }
+}

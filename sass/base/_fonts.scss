@@ -1,0 +1,52 @@
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); 
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); 
+  }
+  /* poppins-500italic - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500italic.woff2') format('woff2'); 
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); 
+  }
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: $main-font-family;
+    @include body($main-font-size, $main-font-weight, $main-line-height)
+}
+h1{
+    @include heading($h1-size, 700, 1.12, $primary-color-dark-blue, 0);
+}
+h2{
+    @include heading($h2-size, 700, 1.2, $primary-color-dark-blue, 0);
+}
+h3{
+    @include heading($h3-size, 700, 1.5, $primary-color-dark-blue, 0);
+}
+h4,h5,h5{
+    margin: 0;
+}
